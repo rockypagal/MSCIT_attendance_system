@@ -116,7 +116,13 @@ input::-webkit-inner-spin-button {
     .enroll{
         width:400px;
     }
+
+        .style {
+          width: 500px;
+          
+        }
 }
+
 
 
 
