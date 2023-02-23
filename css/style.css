@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+#matchEnrol {
+    display: none;
+}
+
+
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+
+  body {
+    height: 100vh;
+  }
+
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(248, 239, 244, 1) 0%, rgba(206, 164, 178, 0.3783071319018405) 53%);
+    height: 100%;
+  }
+
+  .enroll{
+    width:80%;
+    background-color:white;
+    box-sizing: border-box;
+    padding:20px;
+    box-shadow: 0px 0px 35px #CEA4B2;
+    border-radius: 15px;
+    z-index: 1;
+  }
+
+  .heading{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  span{
+    font-size: 18px;
+  }
+
+  form,.info{
+    padding-top:10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    align-items: flex-start;
+    /* gap:10px; */
+    width:100%;
+  }
+
+  #submit,#submitOtp{
+    background-color:#A40865;
+    font-family: 'Rubik', sans-serif;
+    color:white;
+    border:none;
+    outline: none;
+    padding:10px;
+    border-radius: 4px;
+    width:100%;
+    margin-top:20px;
+  }
+
+   #submit:active{
+    background-color: #880d57;
+   }
+   
+   #submitOtp:active{
+    background-color: #880d57;
+   }
+
+  input{
+      width:100%;
+      padding:10px 10px 10px 10px;
+      border:1px solid #C2866B;
+      border-radius: 3px;
+      /* font-size: 18px; */
+      box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.style{
+    width:90%;
+    position:absolute;
+    /* right:100px; */
+    bottom:240px;
+    /* left:30px; */
+    height: 230px;
+    background-color:#cea4b2c2;
+    z-index: 0;
+    opacity:0.3;
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 769px){
+    .enroll{
+        width:400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
